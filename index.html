@@ -5,28 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+      body{
+        align-content: center;
+        background-color: blanchedalmond;
+      }
         h1{
             background-color: silver;
             font-size: 40px;
         }
         table{
         padding:50px 500px 1px 500px;
-        margin: 0%;
+        border:color black;
+       
         }
-
+        
         td{
             width: 100px;
             height: 100px;
+            border: 2px;
+ 
         }
+        
         tr:nth-child(odd) td:nth-child(even),
         tr:nth-child(even) td:nth-child(odd){
             background-color: black;
-            border: solid;
+            
         }    
         tr:nth-child(odd) td:nth-child(odd),
         tr:nth-child(even) td:nth-child(even){
             background-color:white;
-            border: solid;
+            
+        }
+        td:hover {
+          background-color:brown !important;
+        }
+        .white{
+          font-size:4em ;
+          color:white;
+          align-items: center;
+        }
+        .black{
+          font-size:4em ;
+          color:black;
+          align-items: center;
         }
 
     </style>
@@ -35,14 +57,25 @@
     <center><h1>CHESS GAME</h1></center>
     <table>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9821;</td>
+        <td class="white">&#9818;</td>
+        <td class="black">&#9819;</td>
+        <td class="white">&#9821;</td>
+        <td class="black">&#9822;</td>        
+        <td class="white">&#9820;</td>
+      </tr>
+      <tr>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>        
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        
       </tr>
       <tr>
         <td></td>
@@ -85,34 +118,25 @@
         <td></td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td class="black">&#9817;</td>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>        
+        <td class="white">&#9817;</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td class="white">&#9814;</td>
+        <td class="black">&#9816;</td>
+        <td class="white">&#9815;</td>
+        <td class="black">&#9813;</td>
+        <td class="white">&#9812;</td>
+        <td class="black">&#9815;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+      
       </tr>
      </table>
 </body>
